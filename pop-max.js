@@ -2,7 +2,7 @@ $(document).ready(function()
 {
     console.log('jquery ready!');
 
-	var popbox = `<div class="popbox hide" id="popbox"><div aria-label='Close' class="pop-overlay" role="button" tabindex="0"/><div class="pop-content"><div class="popcontent" align="center"> <img src="https://1.bp.blogspot.com/-ZyQ9m80p_8I/YOUFuwFniRI/AAAAAAAAA-I/EsRElBM49M0-aYdRPuhNq-5QNShiwEdgACLcBGAsYHQ/s16000/getimage.gif" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="640" height="320" alt="" /> <button class='g_url btn btn-success btn-dwn m-2'>Oke Saya Mau</button> <br/></div> <button class='g_url popbox-close-button'>&times;</button></div></div>`;
+	var popbox = `<div class="popbox hide" id="popbox"><div aria-label='Close' class="pop-overlay" role="button" tabindex="0"/><div class="pop-content"><div class="popcontent" align="center"> <img src="https://1.bp.blogspot.com/-ZyQ9m80p_8I/YOUFuwFniRI/AAAAAAAAA-I/EsRElBM49M0-aYdRPuhNq-5QNShiwEdgACLcBGAsYHQ/s16000/getimage.gif" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="336" height="280" alt="" /> <button class='g_url btn btn-success btn-dwn m-2'>Mau dong dapet uang tambahan</button> <br/></div> <button class='g_url popbox-close-button'>&times;</button></div></div>`;
 
 	$(document.body).append(popbox);
 
