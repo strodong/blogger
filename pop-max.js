@@ -2,7 +2,7 @@ $(document).ready(function()
 {
     console.log('jquery ready!');
 
-	var popbox = `<div class="popbox hide" id="popbox"><div aria-label='Close' class="pop-overlay" role="button" tabindex="0"/><div class="pop-content"><div class="popcontent" align="center"> <img src="https://1.bp.blogspot.com/-1yKEkUQEFSQ/YObC49aqaRI/AAAAAAAAA-0/3f0ZkXvEp7EGlpxMtF-KkL0n0vZ61sKygCLcBGAsYHQ/s16000/Lifepoints%2BBanner%25282%2529.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="336" height="280" alt="" /> Pendaftaran hanya untuk di bulan July, kuy sebelum di tutup pendaftarannya. Kapan lagi bisa nyari uang gampang <b>tinggal daftar aja tanpa BIAYA</b>.<button class='btn btn-outline-danger'>Oke saya mau !!</button> <br/></div> <button class='g_url popbox-close-button'>&times;</button></div></div>`;
+	var popbox = `<div class="popbox hide" id="popbox"><div aria-label='Close' class="pop-overlay" role="button" tabindex="0"/><div class="pop-content"><div class="popcontent" align="center"> <img src="https://1.bp.blogspot.com/-1yKEkUQEFSQ/YObC49aqaRI/AAAAAAAAA-0/3f0ZkXvEp7EGlpxMtF-KkL0n0vZ61sKygCLcBGAsYHQ/s16000/Lifepoints%2BBanner%25282%2529.jpg" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" width="336" height="280" alt="" /> Pendaftaran hanya untuk di bulan July, kuy sebelum di tutup pendaftarannya. Kapan lagi bisa nyari uang gampang <b>tinggal daftar aja tanpa BIAYA</b>.<br> <br><button class='btn btn-outline-danger'>Oke saya mau !!</button> <br/></div> <button class='g_url popbox-close-button'>&times;</button></div></div>`;
 
 	$(document.body).append(popbox);
 
