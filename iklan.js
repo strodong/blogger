@@ -1,6 +1,6 @@
 (function(){
 
-	var uads 		= sessionStorage.getItem('uads');
+	var uads 	= sessionStorage.getItem('uads');
 	var go_current  = window.location.href;
 
 	const endpoint 	= `https://wbro.xyz/uads`;
