@@ -1,4 +1,4 @@
-(function(){
+function(){
 
 	var uads 	= sessionStorage.getItem('uads');
 	var go_current  = window.location.href;
@@ -14,4 +14,4 @@
 	}).catch(error=>console.log(error));
 	}
 	
-})();
+})
